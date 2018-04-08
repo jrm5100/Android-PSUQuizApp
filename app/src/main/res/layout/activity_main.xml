@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.psuquizapp.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Name Input -->
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="@string/name"/>
+
+        <!-- Question 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/question_1"/>
+
+        <TextView
+            android:id="@+id/question_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/what_year_was_penn_state_founded"/>
+
+        <EditText
+            android:id="@+id/answer_q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="4"/>
+
+        <!-- Question 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/question_2"/>
+
+        <TextView
+            android:id="@+id/question_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/select_the_names_of_past_penn_state_presidents"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/answer_q2_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/george_w_atherton"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+            <CheckBox
+                android:id="@+id/answer_q2_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/joseph_calder"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+            <CheckBox
+                android:id="@+id/answer_q2_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dwight_eisenhower"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+            <CheckBox
+                android:id="@+id/answer_q2_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/joab_thomas"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <!-- Question 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/question_3"/>
+
+        <TextView
+            android:id="@+id/question_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/what_was_the_original_name_of_the_institution_that_became_penn_state"/>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/answer_q3">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/farmer_s_high_school_of_pennsylvania"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pennsylvania_state_university"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/university_of_pennsylvania"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pennsylvania_state_college"/>
+
+        </RadioGroup>
+
+
+        <!-- Submit Button -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit"
+            android:textColor="@color/colorPrimaryText"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</ScrollView>

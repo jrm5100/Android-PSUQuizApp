@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PSU Quiz</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="question_1">Question 1</string>
+    <string name="what_year_was_penn_state_founded">What year was Penn State founded?</string>
+    <string name="question_2">Question 2</string>
+    <string name="select_the_names_of_past_penn_state_presidents">Select the names of past Penn State presidents:</string>
+    <string name="george_w_atherton">George W. Atherton</string>
+    <string name="joseph_calder">Joseph Calder</string>
+    <string name="dwight_eisenhower">Dwight Eisenhower</string>
+    <string name="joab_thomas">Joab Thomas</string>
+    <string name="question_3">Question 3</string>
+    <string name="what_was_the_original_name_of_the_institution_that_became_penn_state">What was the original name of the institution that became Penn State?</string>
+    <string name="farmer_s_high_school_of_pennsylvania">Farmer\'s High School of Pennsylvania</string>
+    <string name="pennsylvania_state_university">Pennsylvania State University</string>
+    <string name="university_of_pennsylvania">University of Pennsylvania</string>
+    <string name="pennsylvania_state_college">Pennsylvania State College</string>
+</resources>
