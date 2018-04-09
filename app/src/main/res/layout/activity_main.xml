@@ -146,21 +146,29 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/farmer_s_high_school_of_pennsylvania"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/pennsylvania_state_university"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/university_of_pennsylvania"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="@string/pennsylvania_state_college"/>
         </RadioGroup>
 
@@ -221,21 +229,29 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="Donkey"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="Horse"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="Coal Miner"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="Mule"/>
         </RadioGroup>
 
@@ -391,21 +407,29 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="The Berkey Creamery"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="McClanahan's"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="Meyer Dairy"/>
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
                 android:text="The Deli"/>
         </RadioGroup>
 
