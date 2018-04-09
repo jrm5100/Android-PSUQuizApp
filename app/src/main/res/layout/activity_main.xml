@@ -162,9 +162,278 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/pennsylvania_state_college"/>
-
         </RadioGroup>
 
+        <!-- Question 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="@string/question_4"/>
+
+        <TextView
+            android:id="@+id/question_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/how_many_wins_did_joe_paterno_finish_with"/>
+
+        <EditText
+            android:id="@+id/answer_q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="5"/>
+
+        <!-- Question 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Question 5"/>
+
+        <TextView
+            android:id="@+id/question_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="'Old Coaly' was a: "/>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/answer_q5">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donkey"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horse"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coal Miner"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mule"/>
+        </RadioGroup>
+
+
+        <!-- Question 6 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Question 6"/>
+
+        <TextView
+            android:id="@+id/question_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="Which of these are NOT a commonwealth campus?"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/answer_q6_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penn State Shenango"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+            <CheckBox
+                android:id="@+id/answer_q6_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penn State Beaver"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+            <CheckBox
+                android:id="@+id/answer_q6_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penn State Worthington"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+            <CheckBox
+                android:id="@+id/answer_q6_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penn State Williamsport"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+
+
+        <!-- Question 7 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Question 7"/>
+
+        <TextView
+            android:id="@+id/question_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="This administrative building was rebuilt in 1930.  The original was finished in 1863."/>
+
+        <EditText
+            android:id="@+id/answer_q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"/>
+
+        <!-- Question 8 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Question 8"/>
+
+        <TextView
+            android:id="@+id/question_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="How many consensus NCAAFB national championships has Penn State won?"/>
+
+        <EditText
+            android:id="@+id/answer_q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="5"/>
+
+        <!-- Question 9 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Question 9"/>
+
+        <TextView
+            android:id="@+id/question_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="You can find Penn State ice cream on campus at: "/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/answer_q9">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Berkey Creamery"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="McClanahan's"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Meyer Dairy"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Deli"/>
+        </RadioGroup>
+
+        <!-- Question 10 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryText"
+            android:text="Question 10"/>
+
+        <TextView
+            android:id="@+id/question_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="WE ARE!"/>
+
+        <EditText
+            android:id="@+id/answer_q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapCharacters"/>
 
         <!-- Submit Button -->
         <Button
